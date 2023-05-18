@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v128_224 {
+  width: 100%;
+  height: 2560px;
+  background: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v128_226 {
+  width: 130px;
+  height: 120px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  overflow: hidden;
+}
+.v128_227 {
+  width: 111px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 66px;
+  left: 139px;
+  font-family: Playfair Display;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v128_228 {
+  width: 189px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 195px;
+  left: 140px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.name {
+  color: #fff;
+}
+
+.comp{
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 193px;
+  left: 1200px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v128_230 {
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 193px;
+  left: 578px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v128_231 {
+  width: 296px;
+  height: 30px;
+  background: url("../images/v128_231.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 63px;
+  left: 1370px;
+  overflow: hidden;
+}
+.v128_232 {
+  width: 29px;
+  height: 30px;
+  background: url("../images/vk.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v128_233 {
+  width: 38px;
+  height: 30px;
+  background: url("../images/youtube.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 130px;
+  overflow: hidden;
+}
+.v128_234 {
+  width: 26px;
+  height: 30px;
+  background: url("../images/telegram.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 270px;
+  overflow: hidden;
+}
+.v128_235 {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 358px;
+  left: 293px;
+  font-family: Montserrat;
+  font-weight: SemiBold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v128_236 {
+  width: 75%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 572px;
+  left: 139px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.v128_237 {
+  width: 100%;
+  height: 340px;
+  background: rgba(85,80,80,1);
+  opacity: 1;
+  position: absolute;
+  top: 2220px;
+  left: 0px;
+  overflow: hidden;
+}
+.v128_238 {
+  width: 480px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 890px;
+  left: 139px;
+  font-family: Montserrat;
+  font-weight: SemiBold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.v128_737 {
+  width: 95px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 66px;
+  left: 1212px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.v128_738 {
+  width: 63px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 66px;
+  left: 1147px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.v128_762 {
+  width: 537px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 296px;
+  left: 1259px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.v128_753 {
+  width: 95px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 1212px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.v128_754 {
+  width: 63px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 46px;
+  left: 1147px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
