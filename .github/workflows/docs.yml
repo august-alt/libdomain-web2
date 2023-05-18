@@ -1,0 +1,43 @@
+name: Publish To Web
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+
+      - name: Create clean web-page branch
+        run:  git checkout -b web-page
+
+      - name: Create site
+        run:  |
+          mkdir docs
+          cp *.html docs/
+          cp -r css docs/
+          cp -r images docs/
+
+      - name: Create .nojekyll file
+        run:  |
+          touch docs/.nojekyll
+
+      - name: Add files to Git repo in the web-page branch
+        run:  |
+          git config --global user.email "bot@basealt.ru"
+          git config --global user.name  "$GITHUB_WORKFLOW GitHub action"
+          git add -f docs
+          git commit -am "feat: add auto-generated web page"
+
+      - name: Publish autodocs as GitHub pages
+        run:  git push -f origin web-page:web-page
+
+      - name: Result URLs
+        run:  |
+          REPO_OWNER=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 1)
+          REPO_NAME=$(echo $GITHUB_REPOSITORY | cut -d '/' -f 2)
+          echo "web-page on a github.io:  https://$REPO_OWNER.github.io/$REPO_NAME/docs"
+          echo ""
+          echo "web-page branch: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/tree/web-page"
